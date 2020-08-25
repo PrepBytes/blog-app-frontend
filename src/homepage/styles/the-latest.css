@@ -1,0 +1,99 @@
+.the-latest {
+	margin-top: 50px;
+}
+
+.the-latest .the-latest__heading {
+	font-size: 30px;
+}
+
+.the-latest .the-latest__heading::after {
+	content: '';
+	border-bottom: 3px solid #F08080;
+	width: 70px;
+	display: block;
+	padding-top: 5px;
+}
+
+.the-latest .the-latest__cards-container {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.the-latest .the-latest__card {
+	width: 300px;
+    margin-bottom: 30px;
+	border-radius: 5px;
+	background: #FCFCFC 0% 0% no-repeat padding-box;
+	box-shadow: 0px 5px 35px #00000008;
+}
+
+.the-latest .the-latest__card:hover {
+	transform: scale(1.01);
+}
+
+.the-latest .the-latest__card-top {
+	height: 160px;
+	border-radius: 5px 5px 0px 0px;
+	background-size: 100% auto !important;
+}
+
+.the-latest .the-latest__card-bottom {
+	padding: 0px 30px 20px 30px;
+}
+
+.the-latest .the-latest__card-heading {
+	font-size: 24px;
+	color: #404040;
+}
+
+.the-latest .the-latest__card-desc {
+	height: 110px;
+	overflow: hidden;
+	letter-spacing: 0px;
+	color: #908D8D;
+	font-size: .9rem;
+}
+
+.the-latest .the-latest__card-category-and-date {
+	font-size: 0.8rem;
+}
+
+.the-latest .the-latest__card-category {
+	letter-spacing: 0px;
+	color: #404040;
+}
+
+.the-latest .the-latest__card-time {
+	letter-spacing: 0.85px;
+	color: #404040;
+}
+
+@media screen and (max-width: 768px) {
+	.the-latest .the-latest__cards-container {
+		width: 100%;
+		margin-top: 0px;
+		flex-flow: column;
+	}
+
+	.the-latest .the-latest__heading {
+		margin-top: 60px;
+	}
+
+	.the-latest .the-latest__card {
+		width: 100%;
+	}
+
+	.the-latest .the-latest__card {
+		margin-top: 60px;
+	}
+
+	.the-latest .the-latest__card:first {
+		margin-top: 0px;
+	}
+
+	.the-latest .the-latest__card-bottom {
+		padding: 0px 20px 20px 20px;
+	}
+}

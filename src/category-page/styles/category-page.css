@@ -1,0 +1,16 @@
+.category-page {
+	width: var(--block-size);
+	margin: auto;
+}
+
+.category-page__category-list-and-top-post-container {
+	display: flex;
+	margin-top: 60px;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+	.category-page__category-list-and-top-post-container {
+		flex-direction: column;
+	}
+}

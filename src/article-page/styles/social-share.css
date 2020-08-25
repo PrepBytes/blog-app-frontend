@@ -1,0 +1,17 @@
+.social-share {
+	cursor: pointer;
+}
+
+.social-share__link-icons {
+	width: 20px;
+	height: 20px;
+	margin: 8px;
+}
+
+.social-share__share-links-container {
+	display: none;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #5F8DC433;
+	border-radius: 5px;
+	opacity: 1;
+}

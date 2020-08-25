@@ -1,0 +1,35 @@
+.homepage {
+	width: var(--block-size);
+	margin: auto;
+}
+
+.homepage .homepage__latest-and-top-articles-heading {
+	font-size: 30px;
+}
+
+.homepage .homepage__latest-and-top-articles-heading::after {
+	content: '';
+	border-bottom: 3px solid #F08080;
+	width: 70px;
+	display: block;
+	padding-top: 5px;
+}
+
+.homepage__latest-and-top-articles-container {
+	display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+	.homepage__latest-and-top-articles-container {
+		flex-direction: column;
+	}
+
+	.latest-articles {
+		width: 100%;
+	}
+
+	.homepage .homepage__latest-and-top-articles-heading {
+		margin-top: 60px;
+	}
+}
